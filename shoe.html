@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="shoe.css">
+</head>
+
+<body>
+    <!--NavBar Starting-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://contents.mediadecathlon.com/p2155519/675a901c012338809f9e6dda7dd6ea6b/p2155519.jpg?format=auto&quality=70&f=350x0" class="food-munch-logo" alt="images" />
+            </a>
+            <p class="cart"> cart <span id="item-count">0</span> </p>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" id="navItem1" href="#WhyChooseUs">
+                        Why Choose Us?
+                        <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-link" href="#ExporeMenu" id="navItem2">Explore Menu</a>
+                    <a class="nav-link" href="#DeliveryPayment" id="navItem3">Delivery & Payment</a>
+                    <a class="nav-link" href="#followUsSection" id="navItem4">Follow Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--NavBar Ending-->
+
+    <!--Hero Section Starting-->
+    <div class="banner-section-bg-container d-flex justify-content-center flex-column">
+        <div class="text-center">
+            <h1 class="banner-heading mb-3">Let your shoes speak for themselves</h1>
+            <p class="banner-caption mb-4">Shoes of comfort</p>
+            <button class="custom-button">View More</button>
+            <button class="custom-outline-button">Order Now</button>
+        </div>
+    </div>
+    <!--Hero Ending Section -->
+
+    <!--Why Choose Section Starting-->
+    <div class="wcu-section pt-5 pb-5" id="WhyChooseUs">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="wcu-section-heading">Why Choose Us?</h1>
+                    <p class="wcu-section-description">
+                        We offer footwear in a variety of styles and sizes across price points
+                    </p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="wcu-card p-3 mb-3">
+                        <img src="https://cdn5.vectorstock.com/i/1000x1000/19/64/graphic-cartoon-character-customer-satisfaction-vector-35051964.jpg" class="wcu-card-image" alt="images" />
+                        <h1 class="wcu-card-title mt-3">Customer Satisfaction</h1>
+                        <p class="wcu-card-description">
+                            Customer satisfaction measures how happy a customer was with a support interaction or a purchase. Customer loyalty, on the other hand, is an ongoing state.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="wcu-card p-3 mb-3">
+                        <img src="https://img.freepik.com/free-psd/shoes-sale-social-media-post-square-banner-template-design_505751-2904.jpg?w=740&t=st=1691216579~exp=1691217179~hmac=ea648afcf4cc26dfa8182312d4deb2ed9a0dc2b0b1aaaaebeb6a7d6e96698dd6" class="wcu-card-image" alt="images" />
+                        <h1 class="wcu-card-title mt-3">New Arrivals</h1>
+                        <p class="wcu-card-description">
+                            The right shoe can help keep your feet healthy and your body safe from injury.
+                            Shoes should cushion and support your feet, feel comfortable and fit well.
+    
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="wcu-card p-3 mb-3">
+                        <img src="https://wedevs.com/_ipx/https://cdn.wedevs.com/uploads/2021/04/Limited-Time-Offer_-How-To-Write-a-Discount-Offer-For-Limited-Time-Only.png?f=webp&q=90" class="wcu-card-image" alt="images" />
+                        <h1 class="wcu-card-title mt-3">Best Offers</h1>
+                        <p class="wcu-card-description">
+                            Cool Coupons & Offers upto
+                            <span class="offers">50% OFF</span>
+                            and Exclusive Promo Codes on All Online Shoe Orders and purchase. <br>
+                            <u><i>The slash price offer is here.</i></u>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Why Choose Section Ending-->
+
+    <!--Explore shoes Section Starting-->
+    <div class="explore-menu-section pt-5 pb-5" id="ExporeMenu">
+       <div class="container">
+           <div class="row">
+               <div class="col-12">
+                   <h1 class="menu-section-heading">Men</h1>
+               </div>
+               <div class="col-6 col-md-6 col-lg-3">
+                   <div class="shadow shoe-item-card p-3 mb-3">
+                       <img src="https://img.freepik.com/free-vector/color-sport-sneaker_98292-3191.jpg?size=626&ext=jpg&ga=GA1.2.769814759.1691215511&semt=sph" class="menu-item-image w-100" alt="images" />
+                       <h1 class="shoe-card-title">Sneakers</h1>
+                       <p class="shoe-item-link">
+                           Place Order
+                           <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                               <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                           </svg>
+                       </p>
+                   </div>
+               </div>
+               <div class="col-6 col-md-6 col-lg-3">
+                   <div class="shadow shoe-item-card p-3 mb-3">
+                       <img src="https://img.freepik.com/free-photo/pair-brown-shoes-with-black-leather-sole-word-bottom_123827-23446.jpg?size=626&ext=jpg&ga=GA1.2.769814759.1691215511&semt=sph" class="menu-item-image w-100" alt="images" />
+                       <h1 class="shoe-card-title">Brogues</h1>
+                       <p class="shoe-item-link">
+                           Place Order
+                           <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                               <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                           </svg>
+                       </p>
+                   </div>
+               </div>
+               <div class="col-6 col-md-6 col-lg-3">
+                   <div class="shoe-item-card shadow p-3 mb-3">
+                       <img src="https://img.freepik.com/free-photo/yellow-leather-loafers-women-s-shoes-fashion_53876-105537.jpg?size=626&ext=jpg&ga=GA1.2.769814759.1691215511&semt=sph" class="menu-item-image w-100" alt="images" />
+                       <h1 class="shoe-card-title">Loafer</h1>
+                       <p class="shoe-item-link">
+                           Place Order
+                           <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                               <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                           </svg>
+                       </p>
+                   </div>
+               </div>
+               <div class="col-6 col-md-6 col-lg-3">
+                   <div class="shoe-item-card shadow p-3 mb-3">
+                       <img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Chukka_boot.jpg" class="menu-item-image w-100" alt="images" />
+                       <h1 class="shoe-card-title">Chukka Boot</h1>
+                       <p class="shoe-item-link">
+                           Place Order
+                           <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                               <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                           </svg>
+                       </p>
+                   </div>
+               </div>
+               <div class="col-6 col-md-6 col-lg-3">
+                   <div class="shoe-item-card shadow p-3 mb-3">
+                       <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Airwalk_Men%27s_Mason_Mocassin_Slippers.JPG" class="menu-item-image w-100" alt="images" />
+                       <h1 class="shoe-card-title">Mocassin Slippers</h1>
+                       <p class="shoe-item-link">
+                           Place Order
+                           <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                               <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                           </svg>
+                       </p>
+                   </div>
+               </div>
+               <div class="col-6 col-md-6 col-lg-3">
+                   <div class="shoe-item-card shadow p-3 mb-3">
+                       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Oxford_shoe1.jpg/1200px-Oxford_shoe1.jpg" class="menu-item-image w-100" alt="images" />
+                       <h1 class="shoe-card-title">Oxford Shoe</h1>
+                       <p class="shoe-item-link">
+                           Place Order
+                           <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                               <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                           </svg>
+                       </p>
+                   </div>
+               </div>
+               <div class="col-6 col-md-6 col-lg-3">
+                   <div class="shoe-item-card shadow p-3 mb-3">
+                       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Chelsea_boot%2C_black.jpg/1200px-Chelsea_boot%2C_black.jpg" class="menu-item-image w-100" alt="images" />
+                       <h1 class="shoe-card-title">Chelsea Boot</h1>
+                       <p class="shoe-item-link">
+                           Place Order
+                           <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                               <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                           </svg>
+                       </p>
+                   </div>
+               </div>
+               <div class="col-6 col-md-6 col-lg-3">
+                   <div class="shoe-item-card shadow p-3 mb-3">
+                       <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Yanko_Balmoral_boots.jpg" class="menu-item-image w-100" alt="images" />
+                       <h1 class="shoe-card-title">Balmoral Boots</h1>
+                       <p class="shoe-item-link">
+                           Place Order
+                           <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                               <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                           </svg>
+                       </p>
+                   </div>
+               </div>
+           </div>
+       </div>
+       </div>
+    <div class="explore-menu-section pt-5 pb-5" id="ExporeMenu">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="menu-section-heading">Women</h1>
+                </div>
+                <div class="col-6 col-md-6 col-lg-3">
+                    <div class="shadow shoe-item-card p-3 mb-3">
+                        <img src="https://imgix.theurbanlist.com/content/article/1_68.jpg" class="menu-item-image w-100" alt="images" />
+                        <h1 class="shoe-card-title">Ballet flats</h1>
+                        <p class="shoe-item-link">
+                            Place Order
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-6 col-lg-3">
+                    <div class="shadow shoe-item-card p-3 mb-3">
+                        <img src="https://hips.hearstapps.com/hmg-prod/images/mules-1675699255.jpg?crop=0.502xw:1.00xh;0.187xw,0&resize=1200:*" class="menu-item-image w-100" alt="images" />
+                        <h1 class="shoe-card-title">Mule</h1>
+                        <p class="shoe-item-link">
+                            Place Order
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-6 col-lg-3">
+                    <div class="shoe-item-card shadow p-3 mb-3">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Start-rite_Louisa_traditional_bar_shoes_or_%22Mary-Jane%22_shoes.jpg" class="menu-item-image w-100" alt="images" />
+                        <h1 class="shoe-card-title">Mary Jane</h1>
+                        <p class="shoe-item-link">
+                            Place Order
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-6 col-lg-3">
+                    <div class="shoe-item-card shadow p-3 mb-3">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/06/Patent_court_shoes.jpg" class="menu-item-image w-100" alt="images" />
+                        <h1 class="shoe-card-title">Court Shoes</h1>
+                        <p class="shoe-item-link">
+                            Place Order
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-6 col-lg-3">
+                    <div class="shoe-item-card shadow p-3 mb-3">
+                        <img src="https://media.sezane.com/image/upload/c_fill,d_placeholder_dark.png,fl_progressive:semi,h_816,q_auto:best,w_582/jdpmweff0pjhst8a6utq.jpg" class="menu-item-image w-100" alt="images" />
+                        <h1 class="shoe-card-title">Loafer</h1>
+                        <p class="shoe-item-link">
+                            Place Order
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-6 col-lg-3">
+                    <div class="shoe-item-card shadow p-3 mb-3">
+                        <img src="https://images.halloweencostumes.com/products/81783/1-1/mens-black-monster-platform-shoes.jpg" class="menu-item-image w-100" alt="images" />
+                        <h1 class="shoe-card-title">Platform Shoe</h1>
+                        <p class="shoe-item-link">
+                            Place Order
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-6 col-lg-3">
+                    <div class="shoe-item-card shadow p-3 mb-3">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Alpargatas_oliva.jpg" class="menu-item-image w-100" alt="images" />
+                        <h1 class="shoe-card-title">Alpargatas_oliva</h1>
+                        <p class="shoe-item-link">
+                            Place Order
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-6 col-lg-3">
+                    <div class="shoe-item-card shadow p-3 mb-3">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Slingback-shoes.jpg" class="menu-item-image w-100" alt="images" />
+                        <h1 class="shoe-card-title">Slingback Shoes</h1>
+                        <p class="shoe-item-link">
+                            Place Order
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="explore-menu-section pt-5 pb-5" id="ExporeMenu">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="menu-section-heading">Kids</h1>
+                </div>
+                <div class="col-6 col-md-6 col-lg-3">
+                    <div class="shadow shoe-item-card p-3 mb-3">
+                        <img src="https://m.media-amazon.com/images/I/51Qb5WcC0LL._AC_SR250,250_QL65_.jpg" class="menu-item-image w-100" alt="images" />
+                        <h1 class="shoe-card-title">Casuals</h1>
+                        <p class="shoe-item-link">
+                            Place Order
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-6 col-lg-3">
+                    <div class="shadow shoe-item-card p-3 mb-3">
+                        <img src="https://m.media-amazon.com/images/I/61Ap4jVSIxL._AC_UL320_.jpg" class="menu-item-image w-100" alt="images" />
+                        <h1 class="shoe-card-title">Growing shoes</h1>
+                        <p class="shoe-item-link">
+                            Place Order
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-6 col-lg-3">
+                    <div class="shoe-item-card shadow p-3 mb-3">
+                        <img src="https://m.media-amazon.com/images/I/51GKXw07rHL._AC_UL320_.jpg" class="menu-item-image w-100" alt="images" />
+                        <h1 class="shoe-card-title">Liberty shoes</h1>
+                        <p class="shoe-item-link">
+                            Place Order
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-6 col-lg-3">
+                    <div class="shoe-item-card shadow p-3 mb-3">
+                        <img src="https://m.media-amazon.com/images/I/71AoQHU6q-L._AC_UL320_.jpg" class="menu-item-image w-100" alt="images" />
+                        <h1 class="shoe-card-title">Snap Sprints</h1>
+                        <p class="shoe-item-link">
+                            Place Order
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-6 col-lg-3">
+                    <div class="shoe-item-card shadow p-3 mb-3">
+                        <img src="https://m.media-amazon.com/images/I/61oN833U1pL._AC_UL320_.jpg" class="menu-item-image w-100" alt="images" />
+                        <h1 class="shoe-card-title">Sneakers</h1>
+                        <p class="shoe-item-link">
+                            Place Order
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-6 col-lg-3">
+                    <div class="shoe-item-card shadow p-3 mb-3">
+                        <img src="https://m.media-amazon.com/images/I/81V9yM4k2gL._AC_UL320_.jpg" class="menu-item-image w-100" alt="images" />
+                        <h1 class="shoe-card-title">Bubble shoes</h1>
+                        <p class="shoe-item-link">
+                            Place Order
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-6 col-lg-3">
+                    <div class="shoe-item-card shadow p-3 mb-3">
+                        <img src="https://m.media-amazon.com/images/I/71FdA26sbPL._AC_UL320_.jpg" class="menu-item-image w-100" alt="images" />
+                        <h1 class="shoe-card-title">Running shoes</h1>
+                        <p class="shoe-item-link">
+                            Place Order
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-6 col-lg-3">
+                    <div class="shoe-item-card shadow p-3 mb-3">
+                        <img src="https://m.media-amazon.com/images/I/61HFl75O-VL._AC_UL320_.jpg" class="menu-item-image w-100" alt="images" />
+                        <h1 class="shoe-card-title">Walking Shoes</h1>
+                        <p class="shoe-item-link" id="place-order">
+                            Place order
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Explore shoes Section Ending-->
+
+    <!--Shoe Section Section Starting-->
+    <div class="shoes-section pt-5 pb-5" id="DeliveryPayment">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-5">
+                    <div class="text-center">
+                        <img src="https://images.lifestyleasia.com/wp-content/uploads/sites/7/2020/03/30141402/AF1-2018_HO18_Group_14_All_styles_0785_native_1600-1600x900.jpg" class="healthy-food-section-img" alt="images" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-7">
+                    <h1 class="shoe-section-heading">
+                        “Our shoes pin us to the world.”
+                    </h1>
+                    <p class="shoe-section-description">
+                        Shoes allow us to travel farther, be more expressive, improve our
+                        performance and aid in overall health. From our soles to our souls,
+                        shoes contribute a great deal to our human experience.
+                    </p>
+                    <button class="custom-button">Watch Video</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--shoe Section Section Section Ending-->
+
+    <!--delivery & payment section Starting-->
+    <div class="delivery-and-payment-section pt-5 pb-5" id="#DeliveryPayment">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-5 order-1 order-md-2">
+                    <div class="text-center">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/delivery-payment-section-img.png" class="delivery-and-payment-section-img" alt="shoe-image" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-7 order-2 order-md-1">
+                    <h1 class="delivery-and-payment-section-heading">
+                        Delivery and Payment
+                    </h1>
+                    <p class="delivery-and-payment-section-description">
+                        Enjoy hassle-free payment with the plenitude of payment options
+                        available for you. Get live tracking and locate your Order on a
+                        live map. It's quite a sight to see your <b>Order</b> arrive to your door.
+                        Plus, you get a 5% discount on every order every time you pay
+                        online.
+                    </p>
+                    <button class="custom-button">Order Now</button>
+                    <div class="mt-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/visa-card-img.png" class="payment-card-img" alt="images" />
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/master-card-img.png" class="payment-card-img" alt="images" />
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/paypal-card-img.png" class="payment-card-img" alt="images" />
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/american-express-img.png" class="payment-card-img" alt="images" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--delivery & payment section  Ending-->
+
+    <!--thanking customers section Starting-->
+    <div class="thanking-customers-section pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-7 d-flex flex-column justify-content-center">
+                    <h1 class="thanking-customers-section-heading">
+                        Thank you for being a valuable customer to us.
+                    </h1>
+                    <p class="thanking-customers-section-description">
+                        We have a surprise gift for you
+                    </p>
+                    <div class="d-md-none">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png" class="thanking-customers-section-img" alt="images" />
+                    </div>
+                    <div>
+                        <button class="custom-button">Redeem Gift</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5 d-none d-md-block">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png" class="thanking-customers-section-img" alt="images" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--thanking customers section Ending-->
+
+    <!--follow us section Starting-->
+    <div class="follow-us-section pt-5 pb-5" id="followUsSection">
+       <div class="container">
+           <div class="row">
+               <div class="col-12">
+                   <h1 class="follow-us-section-heading">Follow Us</h1>
+               </div>
+               <div class="col-12">
+                   <div class="d-flex flex-row justify-content-center">
+                       <div class="follow-us-icon-container">
+                           <i class="fab fa-twitter icon"></i>
+                       </div>
+                       <div class="follow-us-icon-container">
+                           <i class="fab fa-instagram icon"></i>
+                       </div>
+                       <div class="follow-us-icon-container">
+                           <i class="fab fa-facebook icon"></i>
+                       </div>
+                       <div class="follow-us-icon-container">
+                           <i class="fab fa-youtube icon"></i>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+       </div>
+    <!--follow us section Ending-->
+
+    <!--footer section Starting-->
+    <div class="footer-section pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <img src="https://t4.ftcdn.net/jpg/04/60/99/63/360_F_460996349_bIzl423o41oLdi5hJIgNT3OD8SViuo9i.jpg" class="food-munch-logo" alt="images" />
+                    <h1 class="footer-section-mail-id">ordershoe@newshoe.com</h1>
+                    <p class="footer-section-address">
+                        123 Ayur Vigyan Nagar, New Delhi, India.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer section Starting Ending-->
+    <!-- Button trigger modal -->
+    <div id="dialogBox" class="dialog-box">
+        <p id="dialogMessage">Item added to cart successfully</p>
+        <button id="closeDialogButton">Close</button>
+    </div>
+
+    <!-- Modal -->
+
+</body>
+<script src="shoe.js"></script>
+</html>
